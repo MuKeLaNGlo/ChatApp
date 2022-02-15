@@ -8,10 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Icons\" />
-    <Folder Include="Core\" />
-    <Folder Include="MVVM\Model\" />
+    <None Remove="Icons\Image1.png" />
+    <None Remove="Icons\plus.png" />
+    <None Remove="Icons\PNG_transparency_demonstration_1.png" />
+    <None Remove="Icons\send.png" />
+    <None Remove="Icons\SVG_Logo.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\Image1.png" />
+    <Resource Include="Icons\plus.png" />
+    <Resource Include="Icons\PNG_transparency_demonstration_1.png" />
+    <Resource Include="Icons\send.png" />
+    <Resource Include="Icons\SVG_Logo.svg" />
   </ItemGroup>
 
 </Project>
